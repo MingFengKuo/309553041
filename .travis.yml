@@ -2,4 +2,5 @@ language: java
 jdk:
   -openjdk11
 script:
-  -mvn test ./PriorityQueueTest.java
+  -mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+  -mvn test -B ./PriorityQueueTest.java
