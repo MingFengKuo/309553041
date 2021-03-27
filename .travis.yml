@@ -2,4 +2,4 @@ language: java
 jdk:
   -openjdk11
 script:
-  -go test -v ./PriorityQueueTest.java
+  -run ./PriorityQueueTest.java
