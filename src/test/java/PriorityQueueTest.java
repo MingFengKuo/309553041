@@ -32,7 +32,7 @@ public class PriorityQueueTest {
 
         //ToDo random_array add to PriorityQueue
         for(int i = 0; i < random_array.length; i++){
-            test.offer(random_array[i]+1);
+            test.offer(random_array[i]);
         }
 
         //ToDo get PriorityQueue result
